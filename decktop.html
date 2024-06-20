@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container_decktop">
+        <nav class="navigation_header">
+            <p class="p_navigation_logo">PORTFOLIO</p>
+            <div class="block_burger_menu">
+                <input type="checkbox" id="check" class="input_burgermenu">
+                <label for="check">
+                    <span></span>
+                </label>
+                <ul class="ul_havigation_menu_header">
+                    <li class="li_navigation_menu_header"><a href="#start" class="a_navigation_header">Старт</a></li>
+                    <li class="li_navigation_menu_header"><a href="#about" class="a_navigation_header">Хто я</a></li>
+                    <li class="li_navigation_menu_header"><a href="#project" class="a_navigation_header">ПроЄкти</a>
+                    </li>
+                    <li class="li_navigation_menu_header"><a href="#my_skills" class="a_navigation_header">МоЇ
+                            навички</a>
+                    </li>
+                    <li class="li_navigation_menu_header"><a href="#with_me" class="a_navigation_header">На одній
+                            хвилі</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container_to_background_foto">
+            <header class="header" id="start">
+                <div class="container_header">
+                    <div class="block_image_header">
+                        <div class="block_container_image_header">
+                            <div class="slides">
+                                <img src="img/image_header1.jpg" alt="Photo 1" class="img_header_logo">
+                                <img src="img/image_header2.jpg" alt="Photo 2" class="img_header_logo">
+                                <img src="img/image_header3.jpg" alt="Photo 3" class="img_header_logo">
+                                <img src="img/image_header4.jpg" alt="Photo 4" class="img_header_logo">
+                                <img src="img/image_header5.jpg" alt="Photo 5" class="img_header_logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_title_header">
+                        <div class="block_title_text_header">
+                            <h1 class="h1_header">Привіт! <br>Я є FRONT END <br>DEVELOPER</h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- ПРО МЕНЕ -->
+
+        <section class="section_about_me" id="about">
+            <div class="block_my_image">
+                <picture class="picture_my_image">
+                    <source srcset="img/about_me_picture.png" media="(min-width: 1280px)" sizes="" type="" />
+                    <source srcset="img/about_me_picturex075.png" media="(max-width: 1279px) and (min-width: 768px)"
+                        sizes="" type="" />
+                    <source srcset="img/about_me_picturex0.5.png" media="(max-width: 768px)" sizes="" type="" />
+                    <img src="img/about_me_picture.png" alt="" class="img_about_me">
+                </picture>
+            </div>
+            <div class="block_text_about_me">
+                <p class="p_title_about_me">Hello my friend! Мене звати Анатолій, мені 15 років. І як вже знаєте я front
+                    end developer</p>
+                <div class="block_grid_about_me">
+                    <div class="block_grid_text_about_me">
+                        <img src="img/home_logo.png" alt="" class="img_icon_about_me">
+                        <p class="p_text_about_me">Провожу більше часу дома, вчуся граю<br>
+                            плойку та дізнаюсь цікаве в інтернеті</p>
+                    </div>
+                    <div class="block_grid_text_about_me">
+                        <img src="img/arrow_up_logo.png" alt="" class="img_icon_about_me">
+                        <p class="p_text_about_me">Займаюсь спортом, розвиваюсь та<br>
+                            хочу вийти на вищий рівень знання<br>
+                            компютерів тощо </p>
+                    </div>
+                    <div class="block_grid_text_about_me">
+                        <img src="img/headphones_logo.png" alt="" class="img_icon_about_me">
+                        <p class="p_text_about_me">Я люблю слухати музику на Spotify <br>
+                            всюди коли роблю уроки гуляю сплю<br>
+                            і так дальше.</p>
+                    </div>
+                    <div class="block_grid_text_about_me">
+                        <img src="img/book_logo.png" alt="" class="img_icon_about_me">
+                        <p class="p_text_about_me">Я навчаюсь в англійській школі в Лондоні, <br>
+                            вивчаючи англійську та польську мову. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY PROJECT -->
+
+        <section class="section_my_project" id="project">
+            <p class="p_title_my_project">ПроЄкти</p>
+            <div class="container_grid_my_project">
+                <div class="block_grid_my_project">
+                    <a href="my_project2.html" class="a_my_project">
+                        <picture class="picture_my_project">
+                            <source srcset="img/logo_my_project1.png" media="(min-width: 1280px)" sizes="" type="" />
+                            <source srcset="img/tablet_my_project.png"
+                                media="(max-width: 1279px) and (min-width: 768px)" sizes="" type="" />
+                            <img src="img/logo_my_project1.png" alt="" class="img_my_project">
+                        </picture>
+                    </a>
+                    <p class="p_title_block_my_project">Україна після перемоги</p>
+                    <p class="p_something_about_my_project">Веб сайт на тему що станеться <br>в Україні після перемоги.
+                    </p>
+                </div>
+                <div class="block_grid_my_project">
+                    <a href="my_project3.html" class="a_my_project">
+                    <picture class="picture_my_project">
+                        <source srcset="img/logo_my_project2.png" media="(min-width: 1280px)" sizes="" type="" />
+                        <source srcset="img/tablet_my_logo2.png" media="(max-width: 1279px) and (min-width: 768px)"
+                            sizes="" type="" />
+                        <img src="img/logo_my_project2.png" alt="" class="img_my_project">
+                    </picture>
+                    </a>
+                    <p class="p_title_block_my_project">DENIM</p>
+                    <p class="p_something_about_my_project">Веб сторінка про магазин <br> джинсевого одягу</p>
+                </div>
+                <div class="block_grid_my_project">
+                    <a href="my_project1.html" class="a_my_project">
+                        <picture class="picture_my_project">
+                            <source srcset="img/logo_my_project3.png" media="(min-width: 1280px)" sizes="" type="" />
+                            <source srcset="img/teblet_my_project3.png"
+                                media="(max-width: 1279px) and (min-width: 768px)" sizes="" type="" />
+                            <img src="img/logo_my_project3.png" alt="" class="img_my_project">
+                        </picture>
+                    </a>
+                    <p class="p_title_block_my_project">Магазин годинників</p>
+                    <p class="p_something_about_my_project">Веб сторінка про магазин <br>годинників.</p>
+                </div>
+                <div class="block_grid_my_project">
+                    <picture class="picture_my_project">
+                        <source srcset="img/logo_my_project4.png" media="(min-width: 1280px)" sizes="" type="" />
+                        <source srcset="img/tablet_my_project4.png" media="(max-width: 1279px) and (min-width: 768px)"
+                            sizes="" type="" />
+                        <img src="img/logo_my_project4.png" alt="" class="img_my_project">
+                    </picture>
+                    <p class="p_title_block_my_project">Camera Studio</p>
+                    <p class="p_something_about_my_project">Веб сторінка яку я зробив <br>у вільний час літом 2023</p>
+                </div>
+                <div class="block_grid_my_project">
+                    <picture class="picture_my_project">
+                        <source srcset="img/logo_my_project5.png" media="(min-width: 1280px)" sizes="" type="" />
+                        <source srcset="img/tablet_my_project5.png" media="(max-width: 1279px) and (min-width: 768px)"
+                            sizes="" type="" />
+                        <img src="img/logo_my_project5.png" alt="" class="img_my_project">
+                    </picture>
+                    <p class="p_title_block_my_project">Web-Studio</p>
+                    <p class="p_something_about_my_project">Командний проект на тему <br>що таке Web-Studio.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- МОЇ НАВИЧКИ -->
+
+        <section class="section_my_skills" id="my_skills">
+            <p class="p_title_my_skills">Мої Навички</p>
+            <div class="block_my_skills">
+                <div class="block_soft_skills">
+                    <div class="block_title_skills">
+                        <p class="p_title_skills">SOFT SKILLS</p>
+                    </div>
+                    <ul class="ul_skills">
+                        <li class="li_skills">Креативність</li>
+                        <li class="li_skills">Відповідальність</li>
+                        <li class="li_skills">Критичне мислення</li>
+                        <li class="li_skills">Співпраця</li>
+                        <li class="li_skills">Комунікація</li>
+                        <li class="li_skills">Вирішення проблем</li>
+                    </ul>
+                </div>
+                <div class="block_hard_skills">
+                    <div class="block_title_skills">
+                        <p class="p_title_skills">HARD SKILLS</p>
+                    </div>
+                    <ul class="ul_skills">
+                        <li class="li_skills">Програмування
+                            CSS та HTML</li>
+                        <li class="li_skills">Говорю на 3 мовах
+                            Українська Польська
+                            та Англійська</li>
+                        <li class="li_skills">У вільний час малюю
+                            для себе</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- НА ОДНІЙ ХВИЛІ -->
+
+        <section class="section_with_me" id="with_me">
+            <div class="block_title_with_me">
+                <p class="p_title_with_me">НА <br> ОДНІЙ <br> ХВИЛІ</p>
+                <p class="p_subtitle_with_me">Дізнайтесь більше про мене, <br>як створюю склдані верстки</p>
+            </div>
+            <div class="block_text_me">
+                <label class="label_text_about_me" for="name">
+                    <input type="name" class="input" id="name" placeholder="NAME">
+                </label>
+                <label class="label_text_about_me" for="gmail">
+                    <input type="gmail" class="input" id="gmail" placeholder="EMAIL">
+                </label>
+                <label class="label_text_about_me" for="tel">
+                    <input type="tel" class="tel" id="tel" placeholder="PHONE">
+                </label>
+                <label class="label_text_about_me" for="location">
+                    <input type="location" class="input" id="location" placeholder="CITY">
+                </label>
+                <label class="label_text_about_me" for="text">
+                    <input type="text" class="input" id="text" placeholder="MESSAGE">
+                </label>
+                <button class="button_text_me">
+                    <a href="#" class="a_button_text_me">НАПИШІТЬ МЕНІ</a>
+                </button>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+            <p class="p_footer">London United Kingdom</p>
+            <div class="block_p_footer">
+                <p class="p_logo_footer">PORTFOLIO</p>
+                <div class="block_icon_socialmedia">
+                    <a href="" class="a_link_logo"><img src="img/telegram_icon.png" alt="" class="img_icon_footer"></a>
+                    <a href="https://www.instagram.com/tol1kkk_/" class="a_link_logo"><img src="img/instagram_icon.png"
+                            alt="" class="img_icon_footer"></a>
+                    <a href="https://open.spotify.com/user/tolik228sem" class="a_link_logo"><img
+                            src="img/spotify_icon.png" alt="" class="img_icon_footer"></a>
+                    <a href="https://www.snapchat.com/add/tolik_semaniuk?share_id=iAHrfqp6QYU&locale=uk-UA"
+                        class="a_link_logo"><img src="img/snapchat_icon.png" alt="" class="img_icon_footer"></a>
+                </div>
+                <p class="p_mini_text_footer">2024 Anatoii Semaniuk</p>
+            </div>
+            <p class="p_email_footer">toliksemaniuk@gmail.com</p>
+        </footer>
+    </div>
+</body>
+
+</html>
