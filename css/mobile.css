@@ -13,7 +13,7 @@
 {
     .container_decktop
     {
-        width: 400px;
+        min-width: 400px;
         background: #0A0A0A;
         margin: 0 auto; 
     }
