@@ -19,7 +19,7 @@
     }
     .container_to_background_foto
     {
-        max-width: 400px;
+        width: 400px;
         position: relative;
     }
     .container_to_background_foto::before
