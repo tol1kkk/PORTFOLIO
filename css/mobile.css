@@ -13,7 +13,7 @@
 {
     .container_decktop
     {
-        max-width: 400px;
+        width: 400px;
         background: #0A0A0A;
         margin: 0 auto; 
     }
@@ -35,7 +35,7 @@
     }
     .header
     {
-        max-width: 400px;
+        width: 400px;
         height: 900px;
     }
     .navigation_header
